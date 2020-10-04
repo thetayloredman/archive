@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    see https://www.sitemaps.org/protocol.html
+
+    all <lastmod>s are in YYYY-MM-DD format
+-->
+<!-- 
+    Sitemap Description:
+        This sitemap handles all of the
+        /learn/ URLs and is referenced
+        by /sitemaps.xml
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://thetayloredman.github.io/learn/</loc>
+        <lastmod>2020-09-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://thetayloredman.github.io/learn/js/</loc>
+        <lastmod>2020-09-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://thetayloredman.github.io/learn/js/intro/</loc>
+        <lastmod>2020-09-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://thetayloredman.github.io/learn/js/1/</loc>
+        <lastmod>2020-09-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>

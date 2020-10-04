@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    see https://www.sitemaps.org/protocol.html
+
+    all <lastmod>s are in YYYY-MM-DD format
+-->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <!-- /sitemaps/main.xml -->
+        <loc>https://thetayloredman.github.io/sitemaps/main.xml</loc>
+        <lastmod>2020-09-29</lastmod>
+    </sitemap>
+    <sitemap>
+        <!-- /sitemaps/learn.xml -->
+        <loc>https://thetayloredman.github.io/sitemaps/learn.xml</loc>
+        <lastmod>2020-09-29</lastmod>
+    </sitemap>
+</sitemapindex>

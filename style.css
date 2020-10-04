@@ -1,0 +1,180 @@
+* { /* patches resets on all */
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  width: 100% !important;
+  margin: 0px !important;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 20px;
+}
+
+.headerbox {
+  text-align: center;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: rgb(15 200 125);
+  width: 100%;
+  padding: 10px;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.subtitle {
+  font-size: 25px;
+}
+
+.plad {
+  color: lightblue;
+  background-color: hsl(2, 57%, 40%);
+  background-image: repeating-linear-gradient(
+      transparent,
+      transparent 50px,
+      rgba(0, 0, 0, 0.4) 50px,
+      rgba(0, 0, 0, 0.4) 53px,
+      transparent 53px,
+      transparent 63px,
+      rgba(0, 0, 0, 0.4) 63px,
+      rgba(0, 0, 0, 0.4) 66px,
+      transparent 66px,
+      transparent 116px,
+      rgba(0, 0, 0, 0.5) 116px,
+      rgba(0, 0, 0, 0.5) 166px,
+      rgba(255, 255, 255, 0.2) 166px,
+      rgba(255, 255, 255, 0.2) 169px,
+      rgba(0, 0, 0, 0.5) 169px,
+      rgba(0, 0, 0, 0.5) 179px,
+      rgba(255, 255, 255, 0.2) 179px,
+      rgba(255, 255, 255, 0.2) 182px,
+      rgba(0, 0, 0, 0.5) 182px,
+      rgba(0, 0, 0, 0.5) 232px,
+      transparent 232px
+    ),
+    repeating-linear-gradient(
+      270deg,
+      transparent,
+      transparent 50px,
+      rgba(0, 0, 0, 0.4) 50px,
+      rgba(0, 0, 0, 0.4) 53px,
+      transparent 53px,
+      transparent 63px,
+      rgba(0, 0, 0, 0.4) 63px,
+      rgba(0, 0, 0, 0.4) 66px,
+      transparent 66px,
+      transparent 116px,
+      rgba(0, 0, 0, 0.5) 116px,
+      rgba(0, 0, 0, 0.5) 166px,
+      rgba(255, 255, 255, 0.2) 166px,
+      rgba(255, 255, 255, 0.2) 169px,
+      rgba(0, 0, 0, 0.5) 169px,
+      rgba(0, 0, 0, 0.5) 179px,
+      rgba(255, 255, 255, 0.2) 179px,
+      rgba(255, 255, 255, 0.2) 182px,
+      rgba(0, 0, 0, 0.5) 182px,
+      rgba(0, 0, 0, 0.5) 232px,
+      transparent 232px
+    ),
+    repeating-linear-gradient(
+      125deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.2) 2px,
+      rgba(0, 0, 0, 0.2) 3px,
+      transparent 3px,
+      transparent 5px,
+      rgba(0, 0, 0, 0.2) 5px
+    );
+  width: 100%;
+  padding: 5%;
+}
+
+.plad a {
+  text-decoration: underline greenyellow solid;
+  color: inherit;
+}
+
+.plad pre code a {
+  text-decoration: underline lightblue solid;
+}
+
+.thin {
+  font-weight: 100; /* makes the text a little thinner */
+}
+
+.status {
+  color: lightgreen;
+}
+
+.to-home {
+  text-decoration: none;
+}
+
+.headerbox h1 a.to-home {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.warn {
+  border: 2px solid orange;
+  background-color: yellow;
+  width: fit-content;
+  padding: 2%;
+}
+
+.dev {
+  font-size: 30px;
+}
+
+.next {
+  border: 2px solid lightgreen;
+  color: lightgreen;
+  padding: 5px;
+  background-color: gray;
+  width: 10%;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 1s;
+  margin: 10px;
+}
+
+.next:hover {
+  background-color: lightgreen;
+  color: green;
+  border: 2px solid green;
+}
+
+.back {
+  border: 2px solid salmon;
+  color: salmon;
+  padding: 5px;
+  background-color: gray;
+  width: 10%;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 1s;
+  margin: 10px;
+}
+
+.back:hover {
+  background-color: salmon;
+  color: red;
+  border: 2px solid red;
+}
+
+.next a,
+.back a {
+  text-decoration: none;
+}
